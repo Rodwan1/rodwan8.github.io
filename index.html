@@ -69,6 +69,8 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-gap: 1px;
   }
 
   .feature {
@@ -76,6 +78,21 @@
       float: left;
   margin-right: 30px;
   }
+
+  .grid {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+article {
+  flex: 1;
+  margin-right: 30px;
+}
+
+aside {
+  flex: 1;
+}
 </style>
 <body>
 
